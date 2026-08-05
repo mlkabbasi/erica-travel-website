@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erica Travel Blog</title>
+    
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #eef5f4;
+        color: #1f2937;
+        line-height: 1.7;
+    }
+    header {
+        background: #2f6f73;
+        color: white;
+        padding: 28px 16px;
+        text-align: center;
+    }
+    nav {
+        background: #244c50;
+        text-align: center;
+        padding: 12px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        display: inline-block;
+        padding: 6px 8px;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+        max-width: 1000px;
+        margin: 24px auto;
+        padding: 0 16px;
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .hero {
+        width: 100%;
+        max-height: 420px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 14px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+    }
+    .grid img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    form input, form textarea, form select {
+        width: 100%;
+        padding: 10px;
+        margin: 6px 0 14px;
+        border: 1px solid #bbb;
+        border-radius: 6px;
+    }
+    button {
+        background: #2f6f73;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    footer {
+        background: #244c50;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+        nav a { display: block; margin: 5px 0; }
+        header h1 { font-size: 28px; }
+    }
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Exploring with Erica</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Erica</a>
+    <a href="hong-kong.html">Hong Kong</a>
+    <a href="new-zealand.html">New Zealand</a>
+    <a href="moscow.html">Moscow</a>
+    <a href="rome.html">Rome</a>
+    <a href="social.html">Social Media</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<section class="card">
+    <h2>Exploring with Erica</h2>
+    <p>Erica is a travel blogger and social media influencer who shares her journeys, experiences, and favourite destinations.</p>
+    <img class="hero" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=80" alt="Travel view">
+</section>
+
+<section class="card">
+    <h2>Featured Destinations</h2>
+    <div class="grid">
+        <div><a href="hong-kong.html"><img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=800&q=80" alt="Hong Kong"></a><h3>Hong Kong</h3></div>
+        <div><a href="new-zealand.html"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=800&q=80" alt="New Zealand"></a><h3>New Zealand</h3></div>
+        <div><a href="moscow.html"><img src="https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=800&q=80" alt="Moscow"></a><h3>Moscow</h3></div>
+        <div><a href="rome.html"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80" alt="Rome"></a><h3>Rome</h3></div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Erica Travel Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

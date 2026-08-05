@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong</title>
+    
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #eef5f4;
+        color: #1f2937;
+        line-height: 1.7;
+    }
+    header {
+        background: #2f6f73;
+        color: white;
+        padding: 28px 16px;
+        text-align: center;
+    }
+    nav {
+        background: #244c50;
+        text-align: center;
+        padding: 12px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        display: inline-block;
+        padding: 6px 8px;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+        max-width: 1000px;
+        margin: 24px auto;
+        padding: 0 16px;
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .hero {
+        width: 100%;
+        max-height: 420px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 14px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+    }
+    .grid img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    form input, form textarea, form select {
+        width: 100%;
+        padding: 10px;
+        margin: 6px 0 14px;
+        border: 1px solid #bbb;
+        border-radius: 6px;
+    }
+    button {
+        background: #2f6f73;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    footer {
+        background: #244c50;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+        nav a { display: block; margin: 5px 0; }
+        header h1 { font-size: 28px; }
+    }
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Hong Kong</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Erica</a>
+    <a href="hong-kong.html">Hong Kong</a>
+    <a href="new-zealand.html">New Zealand</a>
+    <a href="moscow.html">Moscow</a>
+    <a href="rome.html">Rome</a>
+    <a href="social.html">Social Media</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<section class="card">
+    <h2>Hong Kong</h2>
+    <p>Hong Kong offers a mix of mountain trails, neon-lit streets, traditional temples, busy markets, coastal villages, museums, galleries, and modern skyscrapers.</p>
+    <p>Visitors can also enjoy local dishes such as dim sum and explore the city’s art and cultural centres.</p>
+    <div class="grid">
+        <img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=800&q=80" alt="Hong Kong skyline">
+        <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80" alt="Hong Kong city">
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Erica Travel Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
